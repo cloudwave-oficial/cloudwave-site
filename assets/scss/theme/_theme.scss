@@ -1,0 +1,32 @@
+/*=============== THEME ===============*/
+/*========== Variables Dark theme ==========*/
+body.dark-theme {
+  --first-color: hsl(6, 80%, 60%);
+  --first-color-light: hsl(38, 70%, 88%);
+  --details-color: hsl(0, 0%, 87%);
+  --details-color2: hsl(0, 0%, 87%);
+  --details-color-mail: hsl(0, 0%, 87%);
+  --details-color-bgmail: hsl(216, 17%, 28%);
+
+  --title-color: hsl(0, 0%, 92%);
+  --text-color: hsl(0, 0%, 100%);
+  --body-color: hsl(216, 17%, 28%);
+  --container-color: hsl(215, 18%, 24%);
+
+  --scroll-bar-color: hsl(216, 17%, 28%);
+  --scroll-thumb-color: hsl(217, 18%, 20%);
+}
+
+/*========== Button Dark/Light ==========*/
+.change-theme {
+  position: absolute;
+  right: 1.5rem;
+  top: 2.2rem;
+  color: var(--title-color);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.dark-theme .footer {
+  background-color: var(--container-color);
+}
