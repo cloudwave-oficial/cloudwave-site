@@ -228,7 +228,8 @@ body.dark-theme {
 }
 .nav__logo img {
   width: 2.2rem;
-  margin-left: 5px;
+  height: 1rem;
+  margin-left: 4px;
 }
 .nav__toggle {
   font-size: 1.3rem;
@@ -401,7 +402,8 @@ body.dark-theme {
 }
 .footer__logo img {
   width: 2.6rem;
-  margin-left: 5px;
+  height: 1.5rem;
+  margin-left: 8px;
 }
 .footer__description, .footer__link {
   font-size: var(--small-font-size);
